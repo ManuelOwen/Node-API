@@ -2,7 +2,7 @@ import express from 'express';
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Your server is running ");
+    res.send("Your Node server is running ");
 });
 
 app.listen(5000, () => {
